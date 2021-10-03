@@ -41,8 +41,8 @@ and active states for invalid inputs.
 
 I'll update these after submitting the solution and setting up GitHub pages.
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-bem-and-flexbox-3qytXwlpd)
+- [Live Site URL](https://lnkd.in/gTe_VN49)
 
 ## My process
 
