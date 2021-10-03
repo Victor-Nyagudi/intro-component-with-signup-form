@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+ 
+  <main class="hero">
+    <div class="container row">
+      <div class="hero__content col">
+        <h1 class="hero__title">Learn to code by watching others</h1>
+        
+        <p class="hero__text">
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. 
+        </p>
+      </div>
+      
+      <div class="col">
+        <div class="hero__offer">
+          <p class="hero__offer-message">
+            <span class="hero__offer-message--bold">Try it free 7 days</span> then $20/mo. thereafter
+          </p>
+        </div>
+  
+        <div class="hero__form">
+          <form class="form container">
+            <label for="firstName"></label>
+            <input type="text" name="firstName" id="firstName" placeholder="First Name">
+            <div class="form__validation-message form__validation-message--firstName"></div>
+            
+            <label for="lastName"></label>
+            <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+            <div class="form__validation-message form__validation-message--lastName"></div>
+            
+            <label for="emailAddress"></label>
+            <input type="email" name="emailAddress" id="emailAddress" placeholder="Email Address">
+            <div class="form__validation-message form__validation-message--email"></div>
+    
+            <label for="password"></label>
+            <input type="password" name="password" id="password" placeholder="Password">
+            <div class="form__validation-message form__validation-message--password"></div>
+    
+            <input type="submit" value="claim your free trial" class="btn">
+          </form>
+          
+          <p class="hero__form-message container">
+            By clicking the button, you are agreeing to our <span class="hero__form-message--red">Terms and Services</span> 
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
