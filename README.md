@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./intro-component-with-signup-form-fullscreen.png)
+![](./screenshots/intro-component-with-signup-form-fullscreen.png)
 
 I've included 5 screenshots in the `/screenshots` folder: mobile, tablet, desktop, fullscreen,
 and active states for invalid inputs. 
