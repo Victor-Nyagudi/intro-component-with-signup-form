@@ -32,17 +32,17 @@
   
         <div class="hero__form">
           <form class="form container">
-            <input type="text" name="firstName" id="firstName" placeholder="First Name" aria-label="First Name">
-            <div class="form__validation-message form__validation-message--firstName"></div>
+            <input type="text" name="firstName" id="firstName" placeholder="First Name" autofocus aria-label="First Name" aria-required="true">
+            <div class="form__validation-message form__validation-message--firstName" role="alert"></div>
             
-            <input type="text" name="lastName" id="lastName" placeholder="Last Name" aria-label="Last Name">
-            <div class="form__validation-message form__validation-message--lastName"></div>
+            <input type="text" name="lastName" id="lastName" placeholder="Last Name" aria-label="Last Name" aria-required="true">
+            <div class="form__validation-message form__validation-message--lastName" role="alert"></div>
             
-            <input type="email" name="emailAddress" id="emailAddress" placeholder="Email Address" aria-label="Email Address">
-            <div class="form__validation-message form__validation-message--email"></div>
+            <input type="email" name="emailAddress" id="emailAddress" placeholder="Email Address" aria-label="Email Address" aria-required="true">
+            <div class="form__validation-message form__validation-message--email" role="alert"></div>
     
-            <input type="password" name="password" id="password" placeholder="Password" aria-label="Password">
-            <div class="form__validation-message form__validation-message--password"></div>
+            <input type="password" name="password" id="password" placeholder="Password" aria-label="Password" aria-required="true">
+            <div class="form__validation-message form__validation-message--password" role="alert"></div>
     
             <input type="submit" value="claim your free trial" class="btn">
           </form>
