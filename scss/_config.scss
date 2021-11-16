@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+$primary-font: 'Poppins', sans-serif;
+
+$font-weights: (
+    "regular": 400,
+    "medium": 500,
+    "semi-bold": 600,
+    "bold": 700 
+);
+
+$colors: (
+    "red": hsl(0, 100%, 74%),
+    "green": hsl(154, 59%, 51%),
+
+    // Accent
+    "blue": hsl(248, 32%, 49%),
+
+    "dark-blue": hsl(249, 10%, 26%),
+    "grayish-blue": hsl(246, 25%, 77%)
+);
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@function getFontWeight($weight) {
+    @return map-get($map: $font-weights, $key: $weight);
+}
+
+@function getColor($color) {
+    @return map-get($map: $colors, $key: $color);
+}
+
+@mixin media-xs {
+    @media (max-width: 375px) {
+        @content;
+    }
+}
+
+@mixin media-md {
+    @media (min-width: 700px) {
+        @content;
+    }
+}
+
+@mixin media-lg {
+    @media (min-width: 900px) {
+        @content;
+    }
+}

@@ -9,6 +9,8 @@ const passwordValidation = document.querySelector('.form__validation-message--pa
 const passwordPattern = /^.{6,}$/;
 const emailPattern = /\./;
 
+const error = inputName => `${inputName} cannot be empty`;
+
 form.addEventListener('submit', e => {
     e.preventDefault();
 
@@ -57,5 +59,3 @@ form.addEventListener('submit', e => {
         }
     });
 })
-
-const error = inputName => `${inputName} cannot be empty`;

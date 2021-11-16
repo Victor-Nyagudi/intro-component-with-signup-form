@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/intro-component-with-signup-form-fullscreen.png)
+![](./dist/screenshots/intro-component-with-signup-form-fullscreen.png)
 
 I've included 5 screenshots in the `/screenshots` folder: mobile, tablet, desktop, fullscreen,
 and active states for invalid inputs. 
@@ -40,7 +40,7 @@ and active states for invalid inputs.
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-bem-and-flexbox-3qytXwlpd)
-- [Live Site URL](https://lnkd.in/gTe_VN49)
+- [Live Site URL](https://victor-nyagudi.github.io/intro-component-with-signup-form/)
 
 ## My process
 
@@ -52,7 +52,7 @@ The JavaScript came last once I had the layout figured out, and everything was r
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- SCSS
 - Flexbox
 - Mobile-first workflow
 - Vanilla JavaScript

@@ -1,0 +1,46 @@
+@include media-xs {
+    .hero {
+        &__offer {
+            &-message { padding: 0; }
+        }
+    }
+}
+
+@include media-md {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-image: url("../images/bg-intro-desktop.png");
+        height: 100vh;
+    }
+
+    .hero {
+        &__offer {
+            &-message { padding: 0; }
+        }
+    }    
+}
+
+@include media-lg {
+    .container { max-width: 1250px; }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .col { width: 47%; }
+
+    .hero {
+        margin: 0;
+
+        &__content { text-align: left; }
+
+        &__title { font-size: 2.5rem; }
+
+        &__offer { margin-top: 0; }
+    }
+}
